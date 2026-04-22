@@ -1,0 +1,35 @@
+---
+# 基于 LLVM 风格
+BasedOnStyle: LLVM
+
+# 大括号换行风格：紧跟 (Attach)
+BreakBeforeBraces: Attach
+
+# 基础缩进宽度
+IndentWidth: 4
+
+# 连续行的缩进宽度（如：函数参数过长换行时的缩进）
+ContinuationIndentWidth: 4
+
+# 访问修饰符（public/private等）的偏移量
+# 设置为 -4 则会使其与 class 关键字对齐
+AccessModifierOffset: -4
+
+# 换行符宽度（虽然不直接影响显示，但建议与 IndentWidth 一致）
+TabWidth: 4
+
+# 强制不使用 Tab，只使用空格
+UseTab: Never
+
+# 构造函数初始化列表的缩进宽度
+ConstructorInitializerIndentWidth: 4
+
+# ObjC 属性或代码块缩进宽度
+ObjCBlockIndentWidth: 4
+
+# 命名空间内部不缩进（LLVM 默认不缩进，如果需要缩进可改为 All）
+NamespaceIndentation: None
+
+# 行长度限制
+ColumnLimit: 120
+---
